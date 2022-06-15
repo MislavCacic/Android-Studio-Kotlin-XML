@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513403887956",
+    "project_id": "jebenazavrsnaapp",
+    "storage_bucket": "jebenazavrsnaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513403887956:android:07d793f23d1bcf7afd28c1",
+        "android_client_info": {
+          "package_name": "hr.ferit.mislavcacic.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513403887956-1k6ncc1es09mstd287q8di12h8hcu7bj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTS_dVpk0q4sR8AK9h8bs0ZNZkOElt95k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513403887956-1k6ncc1es09mstd287q8di12h8hcu7bj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

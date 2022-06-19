@@ -3,19 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/pozadina">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/ProfilePicture"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="213dp"
+        android:layout_height="230dp"
         android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/monkey"
+        app:srcCompat="@drawable/predivni_ja"
         tools:ignore="ImageContrastCheck" />
 
     <TextView
@@ -23,7 +22,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:fontFamily="@font/cherry_cream_soda"
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,12 +30,11 @@
         tools:text="@string/show_user_name" />
 
     <TextView
-        android:id="@+id/UserAge"
+        android:id="@+id/UserFullName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:fontFamily="@font/cherry_cream_soda"
-        android:text="@string/show_user_age"
+        android:text="@string/show_user_description"
         android:textColor="@color/black"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,31 +42,29 @@
         app:layout_constraintTop_toBottomOf="@+id/Username" />
 
     <TextView
-        android:id="@+id/UserDesc"
+        android:id="@+id/UserAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:fontFamily="@font/cherry_cream_soda"
-        android:text="@string/show_user_description"
+        android:text="@string/show_user_age"
         android:textColor="@color/black"
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/UserAge" />
+        app:layout_constraintTop_toBottomOf="@+id/UserFullName" />
 
     <ImageButton
-        android:id="@+id/backButton"
+        android:id="@+id/backButtonProfile"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="450dp"
-        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
         android:background="@color/white"
         android:minWidth="48dp"
-        android:src="@drawable/back_button"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/UserDesc"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/UserAge"
+        app:srcCompat="@drawable/back_button"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

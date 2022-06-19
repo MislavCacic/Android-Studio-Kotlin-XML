@@ -27,7 +27,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
-            android:fontFamily="@font/cherry_cream_soda"
             android:text="@string/matches"
             android:textAlignment="center"
             android:textColor="@color/black"

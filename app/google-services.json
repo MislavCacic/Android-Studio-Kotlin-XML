@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "513403887956",
-    "project_id": "jebenazavrsnaapp",
-    "storage_bucket": "jebenazavrsnaapp.appspot.com"
+    "project_number": "1046691505637",
+    "project_id": "hotlin-e650d",
+    "storage_bucket": "hotlin-e650d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:513403887956:android:07d793f23d1bcf7afd28c1",
+        "mobilesdk_app_id": "1:1046691505637:android:015abef90ee49100a3fb0c",
         "android_client_info": {
-          "package_name": "hr.ferit.mislavcacic.myapplication"
+          "package_name": "com.example.tinderzasirotinju"
         }
       },
       "oauth_client": [
         {
-          "client_id": "513403887956-1k6ncc1es09mstd287q8di12h8hcu7bj.apps.googleusercontent.com",
+          "client_id": "1046691505637-asle7qijt4p6rv059mbnavrt8hhmgun4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDTS_dVpk0q4sR8AK9h8bs0ZNZkOElt95k"
+          "current_key": "AIzaSyDEo7aMei80tg958e_lf5Zg1YoYS87lAno"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "513403887956-1k6ncc1es09mstd287q8di12h8hcu7bj.apps.googleusercontent.com",
+              "client_id": "1046691505637-asle7qijt4p6rv059mbnavrt8hhmgun4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
